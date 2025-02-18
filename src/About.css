@@ -1,0 +1,13 @@
+.about {
+  /* max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  color: #d4edc7; */
+
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  text-align: center;
+  justify-content: space-around;
+}

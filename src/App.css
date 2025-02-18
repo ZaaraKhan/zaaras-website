@@ -4,27 +4,3 @@
   padding: 2rem;
   text-align: center;
 }
-
-a {
-  display: flex;
-  flex-direction: column;
-  place-content: center;
-  text-align: center;
-}
-.logo {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 10px;
-}
-.container {
-  display: flex;
-  flex-direction: row;
-  place-content: center;
-  font-size: large;
-  justify-content: space-evenly;
-}
-.item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
