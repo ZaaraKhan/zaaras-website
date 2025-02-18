@@ -5,9 +5,8 @@ function About() {
     <>
       <div className="about">
         <p>
-          Hi! I'm Zaara, a passionate developer building awesome web
-          experiences. I love working with React, TypeScript, and modern web
-          technologies.
+          Hello, I'm a software engineer (allegedly) who's based in the city of
+          San Francisco.
         </p>
       </div>
     </>

@@ -8,6 +8,7 @@ a {
 
 .navbar {
   display: flex;
+  gap: 30px;
   flex-direction: row;
   place-content: center;
   font-size: large;

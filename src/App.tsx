@@ -7,19 +7,22 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <Link to="/home">
-        <h1>Zaara Khan</h1>
-      </Link>
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route
-          path="/projects"
-          element={<h2>Projects Page (Coming Soon!)</h2>}
-        />
-      </Routes>
+      <div className="container">
+        <Link to="/home" className="title">
+          <h1>Zaara Khan</h1>
+        </Link>
+        <div className="routes">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route
+              path="/projects"
+              element={<p>Projects Page (Coming Soon)</p>}
+            />
+          </Routes>
+        </div>
+      </div>
     </Router>
   );
 }
