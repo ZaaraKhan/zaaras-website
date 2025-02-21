@@ -13,6 +13,8 @@ a {
   place-content: center;
   font-size: large;
   justify-content: space-around;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in forwards;
 }
 
 .logo {
@@ -25,4 +27,17 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.item:hover {
+  filter: drop-shadow(0 0 2em #74c7fb);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
