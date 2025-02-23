@@ -4,7 +4,8 @@ import "./Home.css";
 
 function Home() {
   return (
-    <>
+    <div className="container">
+      <h1>Zaara Khan</h1>
       <div className="navbar">
         <a href={resume} target="_blank" className="item">
           <img src={resumeLogo} alt="Resumé" className="logo" />
@@ -21,7 +22,7 @@ function Home() {
           Projects
         </Link>
       </div>
-    </>
+    </div>
   );
 }
 
