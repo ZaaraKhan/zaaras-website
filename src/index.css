@@ -3,19 +3,15 @@
   line-height: 1.5;
   font-weight: 500;
   color-scheme: light dark;
-  color: #d4edc7;
-  background-color: #840707;
+  --background-color: #f4f5d0;
+  --text-color: #390303;
+  --accent-color: #1900ff;
+  background-color: var(--background-color);
+  color: var(--text-color);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  text-decoration: inherit;
-}
-a:hover {
-  color: #74c7fb;
 }
 
 body {
@@ -24,6 +20,15 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  /*cursor: TODO;*/
+}
+
+a {
+  text-decoration: inherit;
+  /*cursor: TODO;*/
+}
+a:hover {
+  color: var(--accent-color);
 }
 
 h1 {
@@ -34,4 +39,80 @@ h1 {
 
 p {
   font-size: 1.5em;
+}
+
+/*Cursor Animation*/
+.trail {
+  position: absolute;
+  pointer-events: none;
+  animation: fadeOut 0.6s ease-out forwards;
+  background: var(--accent-color);
+}
+
+.sparkle {
+  --b: 1px;
+  clip-path: polygon(
+    100% 50%,
+    60.61% 60.61%,
+    50% 100%,
+    39.39% 60.61%,
+    0% 50%,
+    39.39% 39.39%,
+    50% 0%,
+    60.61% 39.39%,
+    100% 50%,
+    60.61% 60.61%,
+    calc(60.61% - 0.21px) calc(60.61% - 0.21px),
+    calc(100% - 1px) calc(50% - 0px),
+    calc(60.61% - 0.21px) calc(39.39% - -0.21px),
+    calc(50% - 0px) calc(0% - -1px),
+    calc(39.39% - -0.21px) calc(39.39% - -0.21px),
+    calc(0% - -1px) calc(50% - 0px),
+    calc(39.39% - -0.21px) calc(60.61% - 0.21px),
+    calc(50% - 0px) calc(100% - 1px),
+    calc(60.61% - 0.21px) calc(60.61% - 0.21px),
+    calc(100% - 1px) calc(50% - 0px)
+  );
+}
+
+.star {
+  aspect-ratio: 1;
+
+  clip-path: polygon(
+    100% 50%,
+    66.18% 61.76%,
+    65.45% 97.55%,
+    43.82% 69.02%,
+    9.55% 79.39%,
+    30% 50%,
+    9.55% 20.61%,
+    43.82% 30.98%,
+    65.45% 2.45%,
+    66.18% 38.24%,
+    100% 50%,
+    66.18% 61.76%,
+    calc(66.18% - 0.32px) calc(61.76% - 0.24px),
+    calc(100% - 1px) calc(50% - 0px),
+    calc(66.18% - 0.32px) calc(38.24% - -0.24px),
+    calc(65.45% - 0.31px) calc(2.45% - -0.95px),
+    calc(43.82% - -0.12px) calc(30.98% - -0.38px),
+    calc(9.55% - -0.81px) calc(20.61% - -0.59px),
+    calc(30% - -0.4px) calc(50% - 0px),
+    calc(9.55% - -0.81px) calc(79.39% - 0.59px),
+    calc(43.82% - -0.12px) calc(69.02% - 0.38px),
+    calc(65.45% - 0.31px) calc(97.55% - 0.95px),
+    calc(66.18% - 0.32px) calc(61.76% - 0.24px),
+    calc(100% - 1px) calc(50% - 0px)
+  );
+}
+
+@keyframes fadeOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
 }

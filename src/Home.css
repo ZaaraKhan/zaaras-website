@@ -42,7 +42,7 @@ a {
 }
 
 .item:hover {
-  filter: drop-shadow(0 0 2em #74c7fb);
+  filter: drop-shadow(0 0 2em var(--accent-color));
 }
 
 @keyframes fadeIn {

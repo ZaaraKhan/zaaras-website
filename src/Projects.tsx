@@ -8,7 +8,7 @@ function Projects() {
         <h1>Zaara Khan</h1>
       </Link>
       <div className="info">
-        <p>Projects Page (Coming Soon)</p>
+        <p>Under Construction 🚧</p>
       </div>
     </div>
   );
