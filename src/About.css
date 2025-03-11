@@ -8,13 +8,15 @@
 }
 
 .info {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 20vh;
+  display: inline;
+  width: 60%;
+  min-height: 31vh;
   opacity: 0;
   animation: fadeIn 0.5s ease-in forwards;
+}
+
+.about {
+  text-align: left;
 }
 
 @keyframes fadeIn {

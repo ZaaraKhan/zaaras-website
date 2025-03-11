@@ -1,4 +1,4 @@
-import { resumeLogo, aboutLogo, projectsLogo } from "./assets";
+import { resumeIcon, aboutIcon, projectsIcon } from "./assets";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
@@ -12,17 +12,17 @@ function Home() {
           target="_blank"
           className="item"
         >
-          <img src={resumeLogo} alt="Resumé" className="logo" />
+          <img src={resumeIcon} alt="Resumé" className="Icon" />
           Resumé
         </a>
 
         <Link to="/about" className="item">
-          <img src={aboutLogo} alt="About" className="logo" />
+          <img src={aboutIcon} alt="About" className="Icon" />
           About
         </Link>
 
         <Link to="/projects" className="item">
-          <img src={projectsLogo} alt="Projects" className="logo" />
+          <img src={projectsIcon} alt="Projects" className="Icon" />
           Projects
         </Link>
       </div>
