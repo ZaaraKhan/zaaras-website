@@ -13,7 +13,7 @@ function About() {
             My name is Zaara Khan. I’m a software engineer specializing in
             accessible, well-design frontend interfaces. I believe form follows
             function, while leaving room for delight. As Charles Eames put it,
-            “Who is to say that pleasure is useless?” <br />
+            “Who is to say that pleasure is useless?” <br /> <br />
             I’m inspired by modernist design, small websites, and unique color
             combinations. I live in beautiful San Francisco, where I spend my
             spare time at the pottery studio. You can reach me at{" "}
