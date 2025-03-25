@@ -1,3 +1,8 @@
-.back {
-  text-align: left;
+.project {
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+.smallLink {
+  font-size: 1em;
 }
