@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./Projects.css";
+import backIcon from "./assets/back.svg";
 
 function Projects() {
   return (
@@ -8,13 +8,11 @@ function Projects() {
         <h1>Zaara Khan</h1>
       </Link>
       <div className="info">
-        <p>Poetry Generator made with Google Gemini API</p>
-
         <a
           href="https://vercel.com/zaaras-projects-3f77e5c8/poetry-app/5cdP2azLFT2g5Vd7biBMaqJzWZK5"
           target="_blank"
         >
-          Link to project
+          Poetry Generator made with Google Gemini API
         </a>
         <br />
         <a
@@ -23,6 +21,11 @@ function Projects() {
         >
           Link to GitHub repo
         </a>
+        <div className="back">
+          <Link to="/home">
+            <img src={backIcon} className="back"></img>
+          </Link>
+        </div>
       </div>
     </div>
   );

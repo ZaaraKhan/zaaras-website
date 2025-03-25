@@ -6,6 +6,7 @@
   --background-color: #f4f5d0;
   --text-color: #390303;
   --accent-color: #1900ff;
+  --info-height: 35vh;
   background-color: var(--background-color);
   color: var(--text-color);
   font-synthesis: none;
@@ -19,10 +20,13 @@
   src: url("/src/Moonstar.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+  margin: 0;
 }
 
 body {
   display: flex;
+  justify-content: center;
+  align-items: center;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -30,6 +34,8 @@ body {
 
 a {
   text-decoration: inherit;
+  margin: 0;
+  color: inherit;
 }
 a:hover {
   color: var(--accent-color);
@@ -40,11 +46,12 @@ h1 {
   font-size: 8em;
   line-height: 1.1;
   font-weight: normal;
-  margin: 0.2em;
+  margin: 0;
 }
 
 p {
-  font-size: 1.3em;
+  font-size: 1.1em;
+  margin: 0;
 }
 
 /*Cursor Animation*/
