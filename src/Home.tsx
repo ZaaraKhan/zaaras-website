@@ -5,9 +5,9 @@ import "./Home.css";
 function Home() {
   return (
     <div className="container">
-      <div className="title">
+      <Link to="/home" className="title">
         <h1>Zaara Khan</h1>
-      </div>
+      </Link>
       <div className="navbar">
         <a
           href="https://docs.google.com/document/d/1Het0_lVxY57FvVsv1INT7omf7sbSVI9V/edit?usp=sharing&ouid=101334788746849539132&rtpof=true&sd=true"
