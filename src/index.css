@@ -162,4 +162,10 @@ p {
   section {
     max-width: 100%;
   }
+
+  .trail,
+  .sparkle,
+  .star {
+    display: none;
+  }
 }

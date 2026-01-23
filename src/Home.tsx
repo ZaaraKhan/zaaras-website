@@ -23,10 +23,15 @@ function Home() {
           About
         </Link>
 
-        <Link to="/projects" className="item">
+        {/* <Link to="/projects" className="item">
           <img src={projectsIcon} alt="Projects" className="Icon" />
           Projects
-        </Link>
+        </Link> */}
+      </div>
+      <div className="footer">
+        {" "}
+        This website was designed and coded by Zaara Khan with React, CSS, HTML,
+        and much love. © 2026
       </div>
     </div>
   );

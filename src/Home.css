@@ -4,6 +4,7 @@
   justify-items: center;
   text-align: left;
   width: fit-content;
+  height: auto;
 }
 
 .title {
@@ -28,6 +29,7 @@
   opacity: 0;
   animation: fadeIn 0.5s ease-in forwards;
 }
+
 @media (max-width: 500px) {
   .navbar {
     min-height: auto;
@@ -58,6 +60,18 @@
   filter: drop-shadow(0 0 2em var(--accent-color));
 }
 
+@media (max-width: 500px) {
+  .item {
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+  }
+}
+
+/* .project {
+  visibility: hidden;
+} */
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -65,4 +79,12 @@
   to {
     opacity: 1;
   }
+}
+
+.footer {
+  font-size: smaller;
+  width: fill-container;
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
 }
