@@ -1,4 +1,3 @@
-import { resumeIcon, aboutIcon, projectsIcon } from "./assets";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
@@ -31,7 +30,15 @@ function Home() {
       <div className="footer">
         {" "}
         This website was designed and coded by Zaara Khan with React, CSS, HTML,
-        and much love. © 2026
+        and much love.
+        <a
+          href="https://www.flaticon.com/free-icons/application"
+          title="application icons"
+        >
+          {" "}
+          Icons by smashingstocks - Flaticon.
+        </a>{" "}
+        © 2026
       </div>
     </div>
   );

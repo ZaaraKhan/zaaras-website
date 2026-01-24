@@ -12,30 +12,53 @@ function About() {
       </div>
       <div className="about info">
         <br />
+        <div className="quote">
+          {" "}
+          <h2>“Who is to say that pleasure is useless?”</h2>
+          <p>Charles Eames</p>
+        </div>
+        <br /> <br />
         <p>
-          My name is Zaara Khan. I’m a software engineer specializing in
-          accessible, well-design frontend interfaces. I believe form follows
-          function, while leaving room for delight. As Charles Eames put it,
-          “Who is to say that pleasure is useless?” <br /> <br />
-          I’m inspired by modernist design, small websites, and unique color
-          combinations. I live in beautiful San Francisco, where I spend my
-          spare time at the pottery studio. You can reach me at{" "}
-          <a href="mailto:zaarakay21@gmail.com">zaarakay21@gmail.com</a>. <br />
+          Zaara Khan is a designer and software engineer specializing in
+          accessible, well-designed frontend interfaces. She believes form
+          follows function, while leaving room for delight. <br /> <br />
+          Zaara is currently working on freelance UX design projects.
+          Previously, she worked as a frontend engineer at Simplr.AI, now
+          Asurion, building customer service software. She holds a B.S. in
+          Cognitive Science from UC San Diego. She is inspired by modernist
+          architecture, small websites, and unique color combinations. <br />{" "}
           <br />
-          Most recently, frontend engineering @{" "}
-          <a href="https://www.asurion.com/" target="_blank">
-            Asurion
+          Zaara lives in San Francisco, California, where she spends her spare
+          time at the pottery studio, volunteering, or drawing at a local park.
+          She is open to creative new opportunities, especially those
+          prioritizing positive social impact. You can reach her at{" "}
+          <a href="mailto:zaarakay21@gmail.com">zaarakay21@gmail.com</a> or on{" "}
+          <a href="https://www.linkedin.com/in/zaarak/" target="_blank">
+            LinkedIn
           </a>
-          . Open to creative new opportunities.
+          .
         </p>
         <br />
         <br />
         <br />
         <div className="back">
-          <Link to="/home">
-            <img src={backIcon} className="back"></img>
-          </Link>
+          <a href="/home">
+            <div className="backIcon"></div>
+          </a>
         </div>
+        {/* <div className="footer">
+          {" "}
+          This website was designed and coded by Zaara Khan with React, CSS,
+          HTML, and much love.
+          <a
+            href="https://www.flaticon.com/free-icons/application"
+            title="application icons"
+          >
+            {" "}
+            Icons by smashingstocks - Flaticon.
+          </a>{" "}
+          © 2026
+        </div> */}
       </div>
     </div>
   );

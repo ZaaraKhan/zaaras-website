@@ -13,9 +13,43 @@
   justify-content: center;
   width: 60%;
 }
+@media (max-width: 500px) {
+  .about {
+    width: 100%;
+  }
+}
+.quote {
+  text-align: center;
+}
+
+h2 {
+  font-weight: normal;
+  margin-bottom: 0;
+}
 
 .back {
   align-content: flex-start;
+}
+
+.backIcon {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 10px;
+  background-color: var(--text-color);
+
+  mask-image: url("/src/assets/back.svg");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+
+  -webkit-mask-image: url("/src/assets/back.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+}
+
+.backIcon:hover {
+  background-color: var(--accent-color);
 }
 
 @keyframes fadeIn {
@@ -25,4 +59,12 @@
   to {
     opacity: 1;
   }
+}
+
+.footer {
+  font-size: smaller;
+  width: fill-container;
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
 }

@@ -6,7 +6,7 @@
   --background-color: #f4f5d0;
   --text-color: #390303;
   --accent-color: #1900ff;
-  --info-height: 35vh;
+  --info-height: 55vh;
   background-color: var(--background-color);
   color: var(--text-color);
   font-synthesis: none;

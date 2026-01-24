@@ -54,8 +54,6 @@
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size: contain;
-
-  transition: background-color 0.2s ease;
 }
 
 .resumeIcon:hover {
@@ -77,8 +75,6 @@
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size: contain;
-
-  transition: background-color 0.2s ease;
 }
 
 .aboutIcon:hover {
@@ -107,10 +103,6 @@
     align-items: center;
   }
 }
-
-/* .project {
-  visibility: hidden;
-} */
 
 @keyframes fadeIn {
   from {
