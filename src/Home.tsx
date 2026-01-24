@@ -14,12 +14,12 @@ function Home() {
           target="_blank"
           className="item"
         >
-          <img src={resumeIcon} alt="Resumé" className="Icon" />
+          <div className="resumeIcon" />
           Resumé
         </a>
 
         <Link to="/about" className="item">
-          <img src={aboutIcon} alt="About" className="Icon" />
+          <div className="aboutIcon" />
           About
         </Link>
 

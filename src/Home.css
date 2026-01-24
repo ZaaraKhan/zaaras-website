@@ -39,10 +39,50 @@
   }
 }
 
-.Icon {
+.resumeIcon {
   width: 50px;
   height: 50px;
   margin-bottom: 10px;
+  background-color: var(--text-color);
+
+  mask-image: url("/src/assets/resume.svg");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+
+  -webkit-mask-image: url("/src/assets/resume.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+
+  transition: background-color 0.2s ease;
+}
+
+.resumeIcon:hover {
+  background-color: var(--accent-color);
+}
+
+.aboutIcon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: var(--text-color);
+
+  mask-image: url("/src/assets/about.svg");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+
+  -webkit-mask-image: url("/src/assets/about.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+
+  transition: background-color 0.2s ease;
+}
+
+.aboutIcon:hover {
+  background-color: var(--accent-color);
 }
 
 .back {
