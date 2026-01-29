@@ -1,5 +1,5 @@
 :root {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "PoltawskiNowy", serif;
   line-height: 1.5;
   font-weight: 500;
   color-scheme: light dark;
@@ -22,6 +22,21 @@
   font-style: normal;
   margin: 0;
 }
+@font-face {
+  font-family: "PoltawskiNowy";
+  src: url("/src/PoltawskiNowy-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 500 700 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PoltawskiNowy";
+  src: url("/src/PoltawskiNowy-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 500 700 900;
+  font-style: italic;
+  font-display: swap;
+}
 
 body {
   display: flex;
@@ -30,6 +45,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-style: normal;
+  font-weight: 100;
 }
 
 a {
