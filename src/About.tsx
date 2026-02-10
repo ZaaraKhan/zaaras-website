@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./About.css";
+import bioImage from "./assets/bioImage.jpg";
 
 function About() {
   const [activeWords, setActiveWords] = useState(new Set());
@@ -21,7 +22,7 @@ function About() {
       </div>
       <div className="about">
         <div className="image">
-          <img src="src/assets/bioImage.jpg"></img>
+          <img src={bioImage}></img>
         </div>
         <div className="text">
           {" "}
