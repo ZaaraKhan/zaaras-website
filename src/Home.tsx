@@ -17,28 +17,15 @@ function Home() {
           Resumé
         </a>
 
+        <Link to="/projects" className="item">
+          <div className="projectsIcon" />
+          Projects
+        </Link>
+
         <Link to="/about" className="item">
           <div className="aboutIcon" />
           About
         </Link>
-
-        {/* <Link to="/projects" className="item">
-          <img src={projectsIcon} alt="Projects" className="Icon" />
-          Projects
-        </Link> */}
-      </div>
-      <div className="footer">
-        {" "}
-        This website was designed and coded by Zaara Khan with React, CSS, HTML,
-        and much love.
-        <a
-          href="https://www.flaticon.com/free-icons/application"
-          title="application icons"
-        >
-          {" "}
-          Icons by smashingstocks - Flaticon.
-        </a>{" "}
-        © 2026
       </div>
     </div>
   );

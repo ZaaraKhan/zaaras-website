@@ -1,8 +1,23 @@
 .project {
-  font-size: 1.5em;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  gap: 50px;
+  font-size: large;
+}
+.project a {
   text-decoration: underline;
 }
-
-.smallLink {
-  font-size: 1em;
+.link {
+  display: flex;
+  justify-content: center;
+}
+.small {
+  font-size: small;
+}
+.back {
+  margin-top: 50px;
 }

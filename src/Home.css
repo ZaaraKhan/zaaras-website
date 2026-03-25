@@ -81,6 +81,27 @@
   background-color: var(--accent-color);
 }
 
+.projectsIcon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: var(--text-color);
+
+  mask-image: url("/src/assets/projects.svg");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
+
+  -webkit-mask-image: url("/src/assets/projects.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+}
+
+.projectsIcon:hover {
+  background-color: var(--accent-color);
+}
+
 .back {
   width: 20px;
   height: 20px;
@@ -111,12 +132,4 @@
   to {
     opacity: 1;
   }
-}
-
-.footer {
-  font-size: smaller;
-  width: fill-container;
-  position: absolute;
-  bottom: 0;
-  margin: 10px;
 }

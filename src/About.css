@@ -39,10 +39,10 @@ span {
 }
 
 .active {
-  background-color: aliceblue;
+  background-color: #ecebff;
 }
 
-a {
+.about a {
   font-weight: 900;
 }
 
@@ -84,7 +84,6 @@ h2 {
     opacity: 1;
   }
 }
-
 .footer {
   font-size: smaller;
   width: fill-container;

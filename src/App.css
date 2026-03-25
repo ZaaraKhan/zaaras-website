@@ -1,6 +1,29 @@
+/* Sticky footer: fills viewport on short pages; footer stays visible without scroll */
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.appMain {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 0;
+}
+
+.siteFooter {
+  flex-shrink: 0;
+  font-size: smaller;
+  margin-top: 1rem;
+  max-width: 100%;
 }

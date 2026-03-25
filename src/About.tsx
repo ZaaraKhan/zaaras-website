@@ -98,8 +98,16 @@ function About() {
             >
               Cognitive Science
             </span>{" "}
-            from UC San Diego. She is inspired by modernist architecture, small
-            websites, and unique color combinations. <br /> <br />
+            from{" "}
+            <span
+              className={`icon-link ${activeWords.has("ucsd") ? "active" : ""}`}
+              onMouseEnter={() => activateWord("ucsd")}
+              onFocus={() => activateWord("ucsd")}
+            >
+              UC San Diego
+            </span>{" "}
+            . She is inspired by modernist architecture, small websites, and
+            unique color combinations. <br /> <br />
             Zaara lives in{" "}
             <span
               className={`icon-link ${activeWords.has("sf") ? "active" : ""}`}
@@ -149,20 +157,6 @@ function About() {
           <br />
           <br />
         </div>
-
-        {/* <div className="footer">
-          {" "}
-          This website was designed and coded by Zaara Khan with React, CSS,
-          HTML, and much love.
-          <a
-            href="https://www.flaticon.com/free-icons/application"
-            title="application icons"
-          >
-            {" "}
-            Icons by smashingstocks - Flaticon.
-          </a>{" "}
-          © 2026
-        </div> */}
       </div>
       <div className="back">
         <a href="/home">

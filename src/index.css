@@ -39,10 +39,10 @@
 }
 
 body {
+  margin: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
-  place-items: center;
+  align-items: stretch;
   min-width: 320px;
   min-height: 100vh;
   font-style: normal;
@@ -54,6 +54,7 @@ a {
   font-weight: 100;
   margin: 0;
   color: inherit;
+  cursor: pointer;
 }
 a:hover {
   color: var(--accent-color);
@@ -65,6 +66,10 @@ h1 {
   line-height: 1.1;
   font-weight: normal;
   margin: 0;
+}
+
+h2 {
+  margin-top: 0;
 }
 
 p {
