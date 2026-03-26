@@ -153,9 +153,6 @@ function About() {
             </a>
             .
           </p>
-          <br />
-          <br />
-          <br />
         </div>
       </div>
       <div className="back">
