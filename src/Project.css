@@ -1,0 +1,44 @@
+.project {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  gap: 45px;
+  font-size: large;
+}
+.project h2 {
+  text-decoration: underline;
+}
+.project-content {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.buttons {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.button {
+  background-color: var(--text-color);
+  border-radius: 100px;
+  color: var(--background-color);
+  font-weight: 700;
+  padding: 5px 12px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.button:hover {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+.back {
+  margin-top: 40px;
+}
