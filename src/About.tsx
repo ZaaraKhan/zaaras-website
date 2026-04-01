@@ -14,13 +14,13 @@ function About() {
   };
 
   return (
-    <div className="container">
+    <div className="about container">
       <div className="title">
         <Link to="/home">
           <h1>Zaara Khan</h1>
         </Link>
       </div>
-      <div className="about">
+      <div className="aboutContent">
         <div className="image">
           <img src={bioImage}></img>
         </div>

@@ -7,6 +7,7 @@
   width: 80%;
   gap: 45px;
   font-size: large;
+  animation: fadeIn 0.5s ease-in forwards;
 }
 .project h2 {
   text-decoration: underline;
@@ -15,6 +16,10 @@
   display: flex;
   flex-direction: row;
   gap: 50px;
+  align-items: center;
+}
+.project img {
+  max-height: 250px;
 }
 
 .buttons {
@@ -37,8 +42,4 @@
 .button:hover {
   background-color: var(--accent-color);
   color: var(--background-color);
-}
-
-.back {
-  margin-top: 40px;
 }

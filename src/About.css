@@ -1,4 +1,4 @@
-.about {
+.aboutContent {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -52,13 +52,14 @@ h2 {
 }
 
 .back {
-  align-content: flex-start;
+  margin-top: 50px;
+  align-content: start;
 }
 
 .backIcon {
   width: 25px;
-  height: 25px;
-  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   background-color: var(--text-color);
 
   mask-image: url("/src/assets/back.svg");

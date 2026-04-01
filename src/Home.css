@@ -104,11 +104,6 @@
   background-color: var(--accent-color);
 }
 
-.back {
-  width: 20px;
-  height: 20px;
-}
-
 .item {
   display: flex;
   flex-direction: column;

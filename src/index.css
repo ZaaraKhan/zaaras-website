@@ -6,7 +6,7 @@
   --background-color: #f4f5d0;
   --text-color: #390303;
   --accent-color: #1900ff;
-  --info-height: 55vh;
+  --info-height: 30vh;
   background-color: var(--background-color);
   color: var(--text-color);
   font-synthesis: none;
@@ -167,7 +167,7 @@ p {
   }
 
   h1 {
-    font-size: 3.2em; /* down from 8em */
+    font-size: 3.2em;
     line-height: 1;
     text-align: center;
   }

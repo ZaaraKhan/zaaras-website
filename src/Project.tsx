@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import "./Project.css";
 
 interface ProjectProps {
@@ -5,7 +6,7 @@ interface ProjectProps {
   link1: string;
   link2?: string;
   img: string;
-  text: React.ReactNode;
+  text: ReactNode;
 }
 
 function Project(props: ProjectProps) {
